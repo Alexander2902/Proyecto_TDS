@@ -18,6 +18,11 @@ label {
   color: #E50914;
 }
 
+.Logo-Container a {
+  text-decoration: none;
+  color: #E50914;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -27,11 +32,6 @@ label {
 html,
 body {
   background: var(--fondo);
-  background: linear-gradient(180deg,
-      #141414 0%,
-      #2a2a2a 65%,
-      #494949 85%,
-      #838383 100%);
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   height: 100%;
@@ -42,8 +42,13 @@ body {
   margin: auto;
 }
 
+.Logo-Container {
+  width: 94%;
+  margin: auto;
+}
+
 header {
-  padding: 25px 0;
+  padding: 30px 0;
 }
 
 header .NAV-Container {
@@ -52,17 +57,26 @@ header .NAV-Container {
   align-items: center;
 }
 
-header .logo {
+.header .Logo-Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .Logo {
   font-family: 'Bebas Neue', cursive;
   font-weight: normal;
   color: var(--logocolor);
   font-size: 40px;
+  text-decoration: none;
 }
 
 header nav a {
   color: #AAA;
   text-decoration: none;
   margin-right: 20px;
+  margin-top: 15px;
+  font-size: 17px;
 }
 
 header nav a:hover,
@@ -130,6 +144,7 @@ header nav a.activo {
 
 .btn-container {
   text-align: center;
+  width: 50%;
 }
 
 .btn-Ticket {
@@ -141,12 +156,16 @@ header nav a.activo {
   text-decoration: none;
   display: inline-block;
   font-size: 18px;
-  position: absolute;
-  top: 79%;
-  left: 12%;
+  position: relative;
+  right: 375px;
+  top: 50px;
 }
 
 .btn-Ticket:hover {
   transition: 0.3s;
   background-color: #d14200;
+}
+
+nav {
+  margin-top: 25px;
 }
