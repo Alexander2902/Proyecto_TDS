@@ -1,0 +1,58 @@
+
+
+.contenedor{
+    margin-top: 100px;
+}
+
+.contenedor h1{
+    text-align: center;
+    position: relative;
+    right: 140px;
+}
+
+.contenedor2{
+    display: flex;
+}
+.contenedor-peliculas{
+    margin-top: 10px;
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    justify-content: start;
+}
+.peliculas{
+    width: 74%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 16%;
+}
+.peliculas img{
+    padding: 5px;
+}
+
+
+
+
+
+
+.proximamente{
+    display: flex;
+    padding-left: 30px;
+    border-left:solid 2px rgb(255, 255, 255);
+    color: aliceblue;
+    
+}
+
+.proximamente img{
+    padding-top: 15px;
+}
+aside{
+    display: flex;
+    justify-content: center;
+    margin-right: 5%;
+    width: 25%;
+}
+
+
