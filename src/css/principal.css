@@ -2,6 +2,7 @@
 
 .contenedor{
     margin-top: 100px;
+    
 }
 
 .contenedor h1{
@@ -12,6 +13,10 @@
 
 .contenedor2{
     display: flex;
+     background-repeat: no-repeat;
+  background: rgb(3,0,0);
+  background: linear-gradient(0deg, rgba(3,0,0,1) 0%, rgba(21,2,2,1) 18%, rgba(189,22,22,1) 83%, rgba(154,42,42,1) 100%);
+  background-repeat: no-repeat;
 }
 .contenedor-peliculas{
     margin-top: 10px;
@@ -29,7 +34,7 @@
     margin-left: 16%;
 }
 .peliculas img{
-    padding: 5px;
+    padding: 12px;
 }
 
 
