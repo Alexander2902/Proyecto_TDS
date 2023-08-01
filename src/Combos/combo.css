@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    border-radius: 15px;
+    border: solid black;
+    max-height: 100%;
+  }
+  
+  .ventana-emergente {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    max-height: 60%;
+    overflow-y: auto;
+  }
+  
+  #check-combos {
+    display: none;
+  }
+  
+  .abrir-ventana {
+    cursor: pointer;
+    font-size: 16px;
+    color: blue;
+    text-decoration: underline;
+    margin: 20px;
+    text-align: right;
+  }
+  
+  #check-combos:checked ~ .ventana-emergente {
+    display: block;
+  }
+  
+  .combo {
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+  }
+  
+  .imagen-descripcion {
+    display: flex;
+    align-items: center;
+  }
+  
+  .imagen-descripcion img {
+    width: 240px;
+    height: 220px;
+    margin-right: 20px;
+    /*border-radius: 50%;*/
+    border-right: 2px solid black;
+  }
+  
+  .descripcion-imagen {
+    text-transform: uppercase;
+
+  }
+  
+  .contenido {
+    flex: 1;
+    font-size: 14px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    color: red;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 35px;
+    text-align: center;
+    
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .input-cantidad {
+    margin-bottom: 8px;
+    text-align: center;
+    margin-left: 85px;
+  }
+  
+  .botones {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 165px;
+    margin-right: 165px;
+  }
+  
+  .atras-button,
+  .validar-button {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .atras-button {
+    background-color: #007BFF;
+  }
+  
+  .validar-button {
+    background-color: #28A745;
+  }
+  
+  h1 {
+    color: red;
+    text-align: left;
+  }
+  
+
+  .tex{
+    font-size: 12px;
+  }
+
+.contenedor-externo {
+  padding: 20px;
+  text-align: left; 
+  background-color: pink;
+}
+
+.contenedor-externo h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: black;
+}

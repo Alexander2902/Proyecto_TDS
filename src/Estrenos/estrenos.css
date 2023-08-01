@@ -1,0 +1,60 @@
+.estrenos {
+    background-repeat: no-repeat;
+    background: rgb(3, 0, 0);
+    background: linear-gradient(0deg, rgba(3, 0, 0, 1) 0%, rgba(21, 2, 2, 1) 18%, rgba(189, 22, 22, 1) 83%, rgba(154, 42, 42, 1) 100%);
+    background-repeat: no-repeat;
+    padding: 15px;
+  }
+  
+  .contenedor {
+    margin-top: 50px;
+  }
+  
+  .contenedor h1 {
+    text-align: left; 
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: -10px; 
+    padding-left: 160px;
+  }
+  
+  .contenedor-estrenos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
+  }
+  
+  .fila-estrenos {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0; 
+  }
+  
+  .estreno {
+    text-align: center;
+    margin: 10px;
+    flex: 0 0 calc(20% - 20px); /* 20% - 20px para ocupar el 20% del ancho de su contenedor y dejar un espacio entre ellos */
+    max-width: calc(20% - 20px); /* Tamaño máximo del .estreno */
+  }
+  
+  .estreno img {
+    max-width: 100%;
+    height: auto;
+    width: 100%; 
+  }
+  
+  .descripcion {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 10px;
+  }
+  
+  .contenedor-estrenos {
+    min-height: 390px;
+  }
+  
