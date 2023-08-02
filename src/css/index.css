@@ -47,6 +47,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   height: 100%;
+ 
 
 }
 
@@ -424,6 +425,8 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+
+  font-size: 22px;
   
 }
 
@@ -463,8 +466,76 @@ footer {
   padding: 5px;
 }
 
+/* Informacion de pelicula */
+.informacion-general{
+  color: white;
+  background-repeat: no-repeat;
+  background: rgb(3,0,0);
+  background: linear-gradient(0deg, rgba(3,0,0,1) 0%, rgba(21,2,2,1) 18%, rgba(189,22,22,1) 83%, rgba(154,42,42,1) 100%);
+  background-repeat: no-repeat;
+}
+.informacion-hijo{
+  display: flex;
+  width: 95%;
+  justify-content: space-around;
+  padding-top: 40px;
+  
+}
+.informacion-pelicula{
+  width: 50%;
+}
+.imgPelicula{
+ width: 35%;
+
+}
+.comprar{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  
+}
+.comprar button{
+  margin-top: 80px;
+  width:80% ;
+}
+/* Proximamente */
+.proximamente{
+  display: flex;
+  justify-content: center;
+
+}
+.contenedor-proximamente{
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: start;
+}
+
+.fecha{
+  background-color: #d1d1d1;
+  font-size: 19px;
+  height:10% ;
+  border-radius: 20px;
+  width: 9%;
+  padding: 10px;
+  color: rgb(0, 0, 0) ;
+}
+
+.titulo-proximamente{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 18px;
+  margin-bottom: 10px;
+  color: #000000;
+  font-size: 23px;
+  
 
 
+}
 
 
 
